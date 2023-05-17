@@ -8,3 +8,7 @@ eureka:
     prefer-ip-address: true
 url: http://localhost:8080/product/reduceQuantity/{productId}?quantity={quantity}
 updateURL: http://localhost:8080/product/update/{productId}?quantity={quantity}
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:Password123@microservice.5oi59xf.mongodb.net/?retryWrites=true&w=majority
