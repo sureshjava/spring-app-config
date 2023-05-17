@@ -7,3 +7,4 @@ eureka:
   instance:
     prefer-ip-address: true
 url: http://localhost:8080/product/reduceQuantity/{productId}?quantity={quantity}
+updateURL: http://localhost:8080/product/update/{productId}?quantity={quantity}
